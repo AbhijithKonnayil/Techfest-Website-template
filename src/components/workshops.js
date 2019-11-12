@@ -5,6 +5,7 @@ class Workshops extends Component{
     render(){
         return(
             <div className="workshops">
+                <h1>Workshops</h1>
                 <WorkshopComp name="React JS" venue="Networking Lab" fees="500 Rs"/>
                 <WorkshopComp name="Django" venue="OS Lab" fees="600 Rs"/>
                 <WorkshopComp name="Node JS" venue="IT Lab" fees="500 Rs"/>
