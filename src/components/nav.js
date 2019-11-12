@@ -4,10 +4,12 @@ class NavBar extends Component{
     render(){
         return(
             <nav>
+                <h1>Flagship Event</h1>
                 <ul>
                     <li>About</li>
-                    <li>Contact</li>
-                    <li>Maps</li>
+                    <li>Workshops</li>
+                    <li>Speakers</li>
+                    <li>Register</li>
                 </ul>
             </nav>
         );
