@@ -1,0 +1,24 @@
+nav{
+    width: 100%;
+    overflow: hidden;
+    background-color: aquamarine;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    height: auto;
+    
+ 
+}
+
+nav ul li{
+    display: block;
+    float: left;
+    padding: 10px 15px;
+}
+
+nav ul li:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(38, 117, 91);
+}
