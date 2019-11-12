@@ -4,9 +4,9 @@ class WorkshopComp extends Component{
     render(){
         return(
             <div className="workshop-comp">
-                <h2>Workshop Name</h2>
-                <h3>Registration Fees</h3>
-                <h4>Venue</h4>
+                <h2>{this.props.name}</h2>
+                <h3>{this.props.fees}</h3>
+                <h4>{this.props.venue}</h4>
             </div>
         );
     }
